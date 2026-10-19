@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import type { Express } from 'express';
-import { createApiApp } from '../server/api-app';
+import { createApiApp } from '../server/api-app.js';
 
 export const maxDuration = 30;
 
@@ -13,7 +13,7 @@ function getApp(): Promise<Express> {
   return appPromise;
 }
 
-/** Vercel invokes this for /api/* (see vercel.json rewrites). Express handles req/res directly. */
+/** Bundled to api/index.js on Vercel build. Express handles req/res directly. */
 export default async function handler(req: VercelRequest, res: VercelResponse): Promise<void> {
   try {
     const app = await getApp();
