@@ -1,0 +1,1678 @@
+{
+  "users": [
+    {
+      "id": "u-teacher-1",
+      "email": "guru.ratna@sekolah.id",
+      "name": "Ibu Ratna Dewi, M.Pd.",
+      "role": "teacher",
+      "avatar_url": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "u-admin-1",
+      "email": "admin@sekolah.id",
+      "name": "Admin Kurikulum",
+      "role": "admin",
+      "avatar_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "u-student-1",
+      "email": "budi@sekolah.id",
+      "name": "Budi Santoso",
+      "role": "student",
+      "avatar_url": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "u-student-2",
+      "email": "siti@sekolah.id",
+      "name": "Siti Rahma",
+      "role": "student",
+      "avatar_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "u-student-3",
+      "email": "ahmad@sekolah.id",
+      "name": "Ahmad Fauzi",
+      "role": "student",
+      "avatar_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "u-student-4",
+      "email": "dewi@sekolah.id",
+      "name": "Dewi Lestari",
+      "role": "student",
+      "avatar_url": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=150&auto=format&fit=crop&q=80",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "u-2d2b3f78-65d9-4e36-ab49-c0218a2c93e5",
+      "name": "Yahya Najmuddin Ahmad",
+      "email": "yahyanajmuddin@gmail.com",
+      "role": "student",
+      "password": "password123",
+      "created_at": "2026-10-03T14:13:28.521Z",
+      "updated_at": "2026-10-03T14:13:28.521Z"
+    },
+    {
+      "id": "u-aa09f274-7201-49b3-80e9-4d61c7eae995",
+      "name": "Bu Homsa",
+      "email": "homsalinamaulida765@gmail.com",
+      "role": "teacher",
+      "password": "password123",
+      "created_at": "2026-10-03T14:14:03.600Z",
+      "updated_at": "2026-10-03T14:14:03.600Z"
+    },
+    {
+      "id": "u-d6be04cb-bcc0-4077-8050-933ea3ab0566",
+      "name": "homsalina",
+      "email": "homsalinamld@gmail.com",
+      "role": "teacher",
+      "password": "password123",
+      "created_at": "2026-10-03T14:14:29.926Z",
+      "updated_at": "2026-10-03T14:14:29.926Z"
+    },
+    {
+      "id": "u-cd139aad-51a3-422c-8a6d-2034e39d6a96",
+      "name": "Kinbim",
+      "email": "kinbim3@gmail.com",
+      "role": "student",
+      "password": "password123",
+      "created_at": "2026-10-03T14:14:52.896Z",
+      "updated_at": "2026-10-03T14:14:52.896Z"
+    }
+  ],
+  "students": [
+    {
+      "id": "std-1",
+      "user_id": "u-student-1",
+      "full_name": "Budi Santoso",
+      "email": "budi@sekolah.id",
+      "grade": "Kelas X",
+      "class_name": "X-MIPA 1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "std-2",
+      "user_id": "u-student-2",
+      "full_name": "Siti Rahma",
+      "email": "siti@sekolah.id",
+      "grade": "Kelas X",
+      "class_name": "X-MIPA 1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "std-3",
+      "user_id": "u-student-3",
+      "full_name": "Ahmad Fauzi",
+      "email": "ahmad@sekolah.id",
+      "grade": "Kelas X",
+      "class_name": "X-MIPA 1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "std-4",
+      "user_id": "u-student-4",
+      "full_name": "Dewi Lestari",
+      "email": "dewi@sekolah.id",
+      "grade": "Kelas X",
+      "class_name": "X-MIPA 2",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "std-07e3afe0-1fc7-413b-a8f8-618a83eeb269",
+      "user_id": "u-2d2b3f78-65d9-4e36-ab49-c0218a2c93e5",
+      "full_name": "Yahya Najmuddin Ahmad",
+      "email": "yahyanajmuddin@gmail.com",
+      "grade": "Kelas X",
+      "class_name": "X-MIPA 1",
+      "created_at": "2026-10-03T14:13:28.521Z",
+      "updated_at": "2026-10-03T14:13:28.521Z"
+    },
+    {
+      "id": "std-e4596878-3f6c-498d-bf48-f2a3c085b033",
+      "user_id": "u-cd139aad-51a3-422c-8a6d-2034e39d6a96",
+      "full_name": "Kinbim",
+      "email": "kinbim3@gmail.com",
+      "grade": "Kelas X",
+      "class_name": "X-MIPA 1",
+      "created_at": "2026-10-03T14:14:52.896Z",
+      "updated_at": "2026-10-03T14:14:52.896Z"
+    }
+  ],
+  "competencies": [
+    {
+      "id": "comp-1",
+      "code": "PRG-1",
+      "name": "Prasyarat PLDV",
+      "description": "Konsep dasar persamaan linear dua variabel, eliminasi/substitusi, dan garis pembatas pada koordinat Cartesius.",
+      "sequence_order": 1,
+      "prerequisite_id": null,
+      "mastery_threshold": 0.8,
+      "active": true,
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1",
+      "subtopics": [
+        {
+          "id": "sub-1-1",
+          "competency_id": "comp-1",
+          "code": "1.1",
+          "title": "Metode Eliminasi & Substitusi SPLDV",
+          "remedial_guide": "Samakan koefisien variabel sasaran dengan perkalian konstanta sebelum menjumlah/mengurangkan persamaan.",
+          "sequence_order": 1
+        },
+        {
+          "id": "sub-1-2",
+          "competency_id": "comp-1",
+          "code": "1.2",
+          "title": "Menentukan Titik Potong Garis Linear pada Bidang Cartesius",
+          "remedial_guide": "Cari titik potong sumbu: jadikan x = 0 untuk sumbu Y, dan jadikan y = 0 untuk sumbu X.",
+          "sequence_order": 2
+        }
+      ]
+    },
+    {
+      "id": "comp-2",
+      "code": "PRG-2",
+      "name": "Makna Tanda Pertidaksamaan",
+      "description": "Interpretasi tanda <, >, ≤, ≥, garis putus-putus vs garis tegas, dan uji titik selidik untuk menentukan daerah arsiran.",
+      "sequence_order": 2,
+      "prerequisite_id": "comp-1",
+      "mastery_threshold": 0.8,
+      "active": true,
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1",
+      "subtopics": [
+        {
+          "id": "sub-2-1",
+          "competency_id": "comp-2",
+          "code": "2.1",
+          "title": "Menentukan Titik Potong Sumbu X dan Sumbu Y",
+          "remedial_guide": "Buat tabel koordinat: cari nilai y saat x = 0, lalu cari nilai x saat y = 0 untuk menentukan dua titik garis pembatas.",
+          "sequence_order": 1
+        },
+        {
+          "id": "sub-2-2",
+          "competency_id": "comp-2",
+          "code": "2.2",
+          "title": "Pemilihan Jenis Garis Pembatas (Putus-putus vs Tegas)",
+          "remedial_guide": "Perhatikan tanda: gunakan garis putus-putus untuk tanda ketidaksamaan murni (< atau >) dan garis tegas untuk tanda memuat sama dengan (≤ atau ≥).",
+          "sequence_order": 2
+        },
+        {
+          "id": "sub-2-3",
+          "competency_id": "comp-2",
+          "code": "2.3",
+          "title": "Uji Titik Selidik (0,0) untuk Penentuan Arah Arsiran",
+          "remedial_guide": "Substitusi titik (0,0) ke pertidaksamaan. Jika hasilnya BENAR, arsir daerah yang memuat titik (0,0). Jika SALAH, arsir daerah seberang.",
+          "sequence_order": 3
+        },
+        {
+          "id": "sub-2-4",
+          "competency_id": "comp-2",
+          "code": "2.4",
+          "title": "Interpretasi Verbal Simbol Pertidaksamaan (≤, ≥, <, >)",
+          "remedial_guide": "Kata \"maksimum / tidak boleh lebih dari\" setara dengan ≤. Kata \"minimum / paling sedikit\" setara dengan ≥.",
+          "sequence_order": 4
+        }
+      ]
+    },
+    {
+      "id": "comp-3",
+      "code": "PRG-3",
+      "name": "Memahami PTLDV",
+      "description": "Menentukan dan menggambar daerah himpunan penyelesaian dari suatu pertidaksamaan linear dua variabel secara mandiri.",
+      "sequence_order": 3,
+      "prerequisite_id": "comp-2",
+      "mastery_threshold": 0.8,
+      "active": true,
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1",
+      "subtopics": [
+        {
+          "id": "sub-3-1",
+          "competency_id": "comp-3",
+          "code": "3.1",
+          "title": "Menggambar Garis dan Daerah Bersih DHP",
+          "remedial_guide": "Tarik garis lurus melewati dua titik potong sumbu koordinat lalu arsirlah daerah yang bernilai benar.",
+          "sequence_order": 1
+        },
+        {
+          "id": "sub-3-2",
+          "competency_id": "comp-3",
+          "code": "3.2",
+          "title": "Mengecek Keanggotaan Titik Uji pada Himpunan Penyelesaian",
+          "remedial_guide": "Masukkan absis (x) dan ordinat (y) titik uji ke dalam pertidaksamaan, periksa apakah bernilai valid.",
+          "sequence_order": 2
+        }
+      ]
+    },
+    {
+      "id": "comp-4",
+      "code": "PRG-4",
+      "name": "Memahami SPTLDV",
+      "description": "Menganalisis irisan (gabungan) daerah penyelesaian sistem pertidaksamaan linear dua variabel beserta titik pojoknya.",
+      "sequence_order": 4,
+      "prerequisite_id": "comp-3",
+      "mastery_threshold": 0.8,
+      "active": true,
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1",
+      "subtopics": [
+        {
+          "id": "sub-4-1",
+          "competency_id": "comp-4",
+          "code": "4.1",
+          "title": "Menentukan Irisan Gabungan Daerah SPTLDV",
+          "remedial_guide": "Gambarlah seluruh garis pembatas dalam satu bidang koordinat lalu cari daerah yang terkena irisan semua syarat.",
+          "sequence_order": 1
+        },
+        {
+          "id": "sub-4-2",
+          "competency_id": "comp-4",
+          "code": "4.2",
+          "title": "Menentukan Titik-Titik Pojok Daerah Penyelesaian",
+          "remedial_guide": "Titik pojok adalah titik potong antar garis batas pembatas DHP. Hitung koordinatnya menggunakan metode eliminasi/substitusi.",
+          "sequence_order": 2
+        }
+      ]
+    }
+  ],
+  "competency_progress": [
+    {
+      "id": "cp-budi-1",
+      "student_id": "std-1",
+      "competency_id": "comp-1",
+      "status": "ACHIEVED",
+      "last_attempt_id": "att-budi-1",
+      "last_updated_at": "2026-10-01T09:51:02.465Z",
+      "created_at": "2026-10-01T09:48:02.465Z",
+      "updated_at": "2026-10-01T09:51:02.465Z"
+    },
+    {
+      "id": "cp-budi-2",
+      "student_id": "std-1",
+      "competency_id": "comp-2",
+      "status": "ACHIEVED",
+      "last_attempt_id": "att-f94d1cd4-e1ae-48b0-9b73-806331f36469",
+      "last_updated_at": "2026-10-03T09:48:32.007Z",
+      "created_at": "2026-10-02T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:32.007Z"
+    },
+    {
+      "id": "cp-budi-3",
+      "student_id": "std-1",
+      "competency_id": "comp-3",
+      "status": "DEVELOPING",
+      "last_attempt_id": "att-94e72098-914a-4917-a130-d9d955d19377",
+      "last_updated_at": "2026-10-03T09:56:41.108Z",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:56:41.108Z"
+    },
+    {
+      "id": "cp-budi-4",
+      "student_id": "std-1",
+      "competency_id": "comp-4",
+      "status": "NOT_STARTED",
+      "last_attempt_id": null,
+      "last_updated_at": "2026-10-03T09:48:02.465Z",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "cp-siti-1",
+      "student_id": "std-2",
+      "competency_id": "comp-1",
+      "status": "ACHIEVED",
+      "last_attempt_id": "att-siti-1",
+      "last_updated_at": "2026-09-30T09:51:22.465Z",
+      "created_at": "2026-09-30T09:48:02.465Z",
+      "updated_at": "2026-09-30T09:51:22.465Z"
+    },
+    {
+      "id": "cp-siti-2",
+      "student_id": "std-2",
+      "competency_id": "comp-2",
+      "status": "ACHIEVED",
+      "last_attempt_id": "att-siti-2",
+      "last_updated_at": "2026-10-01T09:51:12.465Z",
+      "created_at": "2026-10-01T09:48:02.465Z",
+      "updated_at": "2026-10-01T09:51:12.465Z"
+    },
+    {
+      "id": "cp-siti-3",
+      "student_id": "std-2",
+      "competency_id": "comp-3",
+      "status": "ACHIEVED",
+      "last_attempt_id": "att-siti-3",
+      "last_updated_at": "2026-10-02T09:51:42.465Z",
+      "created_at": "2026-10-02T09:48:02.465Z",
+      "updated_at": "2026-10-02T09:51:42.465Z"
+    },
+    {
+      "id": "cp-siti-4",
+      "student_id": "std-2",
+      "competency_id": "comp-4",
+      "status": "DEVELOPING",
+      "last_attempt_id": "att-siti-4",
+      "last_updated_at": "2026-10-03T04:53:02.465Z",
+      "created_at": "2026-10-03T04:48:02.465Z",
+      "updated_at": "2026-10-03T04:53:02.465Z"
+    },
+    {
+      "id": "cp-ahmad-1",
+      "student_id": "std-3",
+      "competency_id": "comp-1",
+      "status": "ACHIEVED",
+      "last_attempt_id": "att-5940f9f4-d275-4b11-a232-ea6085a8e5d7",
+      "last_updated_at": "2026-10-03T14:01:33.061Z",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T14:01:33.061Z"
+    },
+    {
+      "id": "cp-ahmad-2",
+      "student_id": "std-3",
+      "competency_id": "comp-2",
+      "status": "DEVELOPING",
+      "last_attempt_id": "att-6764440a-9b4a-43ba-b8d3-371e16245e95",
+      "last_updated_at": "2026-10-03T14:09:29.587Z",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T14:09:29.587Z"
+    },
+    {
+      "id": "cp-dewi-1",
+      "student_id": "std-4",
+      "competency_id": "comp-1",
+      "status": "ACHIEVED",
+      "last_attempt_id": null,
+      "last_updated_at": "2026-10-03T09:48:02.465Z",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "cp-dewi-2",
+      "student_id": "std-4",
+      "competency_id": "comp-2",
+      "status": "ACHIEVED",
+      "last_attempt_id": null,
+      "last_updated_at": "2026-10-03T09:48:02.465Z",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "cp-dewi-3",
+      "student_id": "std-4",
+      "competency_id": "comp-3",
+      "status": "ACHIEVED",
+      "last_attempt_id": null,
+      "last_updated_at": "2026-10-03T09:48:02.465Z",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    },
+    {
+      "id": "cp-dewi-4",
+      "student_id": "std-4",
+      "competency_id": "comp-4",
+      "status": "ACHIEVED",
+      "last_attempt_id": null,
+      "last_updated_at": "2026-10-03T09:48:02.465Z",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q-prg1-1",
+      "competency_id": "comp-1",
+      "question_text": "Diberikan sistem persamaan linear: 2x + y = 7 dan x - y = 2. Manakah pasangan nilai (x, y) yang merupakan solusi dari sistem tersebut?",
+      "option_a": "x = 3 dan y = 1",
+      "option_b": "x = 4 dan y = -1",
+      "option_c": "x = 2 dan y = 3",
+      "option_d": "x = 1 dan y = 5",
+      "correct_answer": "A",
+      "explanation": "Dengan metode eliminasi/penjumlahan: (2x + y) + (x - y) = 7 + 2 => 3x = 9 => x = 3. Substitusi x = 3 ke x - y = 2 => 3 - y = 2 => y = 1. Jadi (x, y) = (3, 1).",
+      "question_order": 1,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg1-2",
+      "competency_id": "comp-1",
+      "question_text": "Persamaan garis 3x + 2y = 12 memotong sumbu-X di titik A dan sumbu-Y di titik B. Koordinat titik potong A dan B berturut-turut adalah...",
+      "option_a": "(0, 4) dan (6, 0)",
+      "option_b": "(4, 0) dan (0, 6)",
+      "option_c": "(6, 0) dan (0, 4)",
+      "option_d": "(3, 0) dan (0, 2)",
+      "correct_answer": "B",
+      "explanation": "Titik potong sumbu-X terjadi saat y = 0: 3x = 12 => x = 4 => (4, 0). Titik potong sumbu-Y saat x = 0: 2y = 12 => y = 6 => (0, 6).",
+      "question_order": 2,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg1-3",
+      "competency_id": "comp-1",
+      "question_text": "Metode yang dilakukan dengan menyatakan salah satu variabel ke dalam bentuk variabel lain kemudian menggantikannya pada persamaan kedua disebut metode...",
+      "option_a": "Metode Grafik",
+      "option_b": "Metode Eliminasi murni",
+      "option_c": "Metode Substitusi",
+      "option_d": "Metode Matriks Determinan",
+      "correct_answer": "C",
+      "explanation": "Metode substitusi mengganti satu variabel dengan ekspresi variabel lain dari persamaan sebelumnya.",
+      "question_order": 3,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg1-4",
+      "competency_id": "comp-1",
+      "question_text": "Bentuk umum persamaan linear dua variabel dengan variabel x dan y adalah...",
+      "option_a": "ax² + by = c dengan a, b ≠ 0",
+      "option_b": "ax + by = c dengan a, b ∈ bilangan real dan a, b tidak keduanya nol",
+      "option_c": "ax + by + cz = d",
+      "option_d": "y = mx² + c",
+      "correct_answer": "B",
+      "explanation": "Persamaan linear berderajat 1 terhadap kedua variabelnya: ax + by = c dengan a dan b tidak keduanya nol.",
+      "question_order": 4,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg1-5",
+      "competency_id": "comp-1",
+      "question_text": "Jika 4x - 3y = 10 dan y = 2, berapakah nilai x yang memenuhi persamaan tersebut?",
+      "option_a": "x = 3",
+      "option_b": "x = 4",
+      "option_c": "x = 2",
+      "option_d": "x = 5",
+      "correct_answer": "B",
+      "explanation": "4x - 3(2) = 10 => 4x - 6 = 10 => 4x = 16 => x = 4.",
+      "question_order": 5,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg2-1",
+      "competency_id": "comp-2",
+      "question_text": "Dalam menggambar grafik daerah pertidaksamaan linear dua variabel, tanda pertidaksamaan manakah yang garis pembatasnya digambar PUTUS-PUTUS (dashed line)?",
+      "option_a": "≤ dan ≥",
+      "option_b": "< dan >",
+      "option_c": "Hanya tanda ≤",
+      "option_d": "Hanya tanda =",
+      "correct_answer": "B",
+      "explanation": "Tanda ketidaksamaan murni (< atau >) tidak menyertakan garis batas sebagai bagian dari solusi, sehingga digambarkan sebagai garis putus-putus.",
+      "question_order": 1,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg2-2",
+      "competency_id": "comp-2",
+      "question_text": "Kalimat matematis: \"Jumlah kapasitas penumpang (p) dan barang (b) tidak boleh melebihi 100 kg\" paling tepat dinyatakan dalam simbol pertidaksamaan...",
+      "option_a": "p + b > 100",
+      "option_b": "p + b ≥ 100",
+      "option_c": "p + b ≤ 100",
+      "option_d": "p + b < 100",
+      "correct_answer": "C",
+      "explanation": "\"Tidak boleh melebihi\" berarti paling banyak 100 kg, dinotasikan dengan tanda \"≤\" (kurang dari atau sama dengan).",
+      "question_order": 2,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg2-3",
+      "competency_id": "comp-2",
+      "question_text": "Diberikan pertidaksamaan 2x + 5y ≥ 10. Ketika dilakukan uji titik selidik (0, 0), diperoleh pernyataan \"0 ≥ 10\". Pernyataan ini bernilai SALAH. Kesimpulannya adalah...",
+      "option_a": "Titik (0, 0) berada di dalam daerah himpunan penyelesaian",
+      "option_b": "Titik (0, 0) tidak termasuk dalam daerah himpunan penyelesaian, sehingga arsiran menjauhi (0, 0)",
+      "option_c": "Garis batas tidak memiliki solusi",
+      "option_d": "Pertidaksamaan tersebut keliru dan harus dibalik",
+      "correct_answer": "B",
+      "explanation": "Karena uji titik (0, 0) menghasilkan pernyataan salah, maka (0,0) bukan penyelesaian, sehingga daerah yang diarsir adalah sisi yang tidak memuat (0, 0).",
+      "question_order": 3,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg2-4",
+      "competency_id": "comp-2",
+      "question_text": "Tanda \"≥\" dibaca secara verbal dalam bahasa Indonesia yang tepat adalah...",
+      "option_a": "Kurang dari atau sama dengan",
+      "option_b": "Sama dengan atau mendekati",
+      "option_c": "Lebih dari atau sama dengan",
+      "option_d": "Bukan bagian dari",
+      "correct_answer": "C",
+      "explanation": "Simbol \"≥\" adalah \"lebih dari atau sama dengan\" (at least / minimum).",
+      "question_order": 4,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg2-5",
+      "competency_id": "comp-2",
+      "question_text": "Pada grafik pertidaksamaan y > 2x - 1, apakah titik (1, 1) yang terletak tepat pada garis y = 2(1) - 1 = 1 merupakan anggota himpunan penyelesaian?",
+      "option_a": "Ya, karena titik tersebut tepat di garis",
+      "option_b": "Tidak, karena tanda pertidaksamaan adalah \">\" tegas sehingga titik pada garis batas tidak termasuk",
+      "option_c": "Ya, bila x positif",
+      "option_d": "Tergantung kuadran Cartesius",
+      "correct_answer": "B",
+      "explanation": "Pada tanda ketidaksamaan tegas \">\", titik-titik pada garis batas tidak memenuhi syarat karena 1 > 1 bernilai SALAH.",
+      "question_order": 5,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg3-1",
+      "competency_id": "comp-3",
+      "question_text": "Manakah titik di bawah ini yang merupakan anggota penyelesaian dari pertidaksamaan x + 2y ≤ 8 ?",
+      "option_a": "(5, 3)",
+      "option_b": "(2, 2)",
+      "option_c": "(6, 2)",
+      "option_d": "(4, 4)",
+      "correct_answer": "B",
+      "explanation": "Uji titik (2, 2): 2 + 2(2) = 2 + 4 = 6 ≤ 8 (BENAR). Pilihan A: 5 + 6 = 11 > 8 (Salah). Pilihan C: 6 + 4 = 10 > 8. Pilihan D: 4 + 8 = 12 > 8.",
+      "question_order": 1,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg3-2",
+      "competency_id": "comp-3",
+      "question_text": "Daerah penyelesaian pertidaksamaan 3x - 2y < 6 dengan uji titik (0, 0) menghasilkan 0 < 6 (Benar). Bagaimana posisi daerah penyelesaian tersebut terhadap garis batas?",
+      "option_a": "Memuat titik (0, 0) dengan garis batas putus-putus",
+      "option_b": "Tidak memuat titik (0, 0) dengan garis batas putus-putus",
+      "option_c": "Memuat titik (0, 0) dengan garis batas tegas",
+      "option_d": "Hanya berada di Kuadran IV",
+      "correct_answer": "A",
+      "explanation": "Karena 0 < 6 bernilai benar, daerah penyelesaian memuat (0, 0). Tanda < tanpa sama dengan berarti garis batas putus-putus.",
+      "question_order": 2,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg3-3",
+      "competency_id": "comp-3",
+      "question_text": "Garis batas untuk pertidaksamaan -2x + y ≤ 4 akan memotong sumbu-X dan sumbu-Y di titik...",
+      "option_a": "(-2, 0) dan (0, 4)",
+      "option_b": "(2, 0) dan (0, -4)",
+      "option_c": "(4, 0) dan (0, -2)",
+      "option_d": "(-4, 0) dan (0, 2)",
+      "correct_answer": "A",
+      "explanation": "Saat y = 0 => -2x = 4 => x = -2, maka (-2, 0). Saat x = 0 => y = 4, maka (0, 4).",
+      "question_order": 3,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg3-4",
+      "competency_id": "comp-3",
+      "question_text": "Pertidaksamaan x ≥ 0 dan y ≥ 0 dalam konteks pemodelan matematika PTLDV menyatakan bahwa...",
+      "option_a": "Variabel x dan y boleh bernilai negatif",
+      "option_b": "Variabel x dan y bersifat non-negatif (daerah penyelesaian terbatas di Kuadran I atau sumbu positif)",
+      "option_c": "Garis batas hanya terletak di sumbu-X",
+      "option_d": "Solusi hanya ada di Kuadran III",
+      "correct_answer": "B",
+      "explanation": "Syarat x ≥ 0 dan y ≥ 0 disebut syarat non-negatif yang memastikan solusi riil berada di Kuadran I.",
+      "question_order": 4,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg3-5",
+      "competency_id": "comp-3",
+      "question_text": "Perhatikan grafik pertidaksamaan linear $2x + 3y \\ge 12$. Manakah garis pembatas dan titik potong sumbu yang tepat pada bidang Cartesius?",
+      "option_a": "Garis lurus tegas yang menghubungkan titik $(6, 0)$ dan $(0, 4)$",
+      "option_b": "Garis putus-putus yang menghubungkan titik $(4, 0)$ dan $(0, 6)$",
+      "option_c": "Garis lurus tegas yang menghubungkan titik $(3, 0)$ dan $(0, 2)$",
+      "option_d": "Garis melengkung parabola melalui $(0, 0)$",
+      "correct_answer": "A",
+      "explanation": "Titik potong garis pembatas $2x + 3y = 12$: saat $y = 0 \\Rightarrow x = 6$, dan saat $x = 0 \\Rightarrow y = 4$. Karena memuat tanda \"$\\ge$\", garis pembatas digambar berupa garis tegas.",
+      "image_url": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20400%20280%22%20width%3D%22100%25%22%20height%3D%22100%25%22%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%23f8fafc%22%2F%3E%3Cdefs%3E%3Cpattern%20id%3D%22grid%22%20width%3D%2220%22%20height%3D%2220%22%20patternUnits%3D%22userSpaceOnUse%22%3E%3Cpath%20d%3D%22M%2020%200%20L%200%200%200%2020%22%20fill%3D%22none%22%20stroke%3D%22%23e2e8f0%22%20stroke-width%3D%220.8%22%2F%3E%3C%2Fpattern%3E%3C%2Fdefs%3E%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22url(%23grid)%22%2F%3E%3Cline%20x1%3D%2230%22%20y1%3D%22220%22%20x2%3D%22370%22%20y2%3D%22220%22%20stroke%3D%22%23334155%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%22375%2C220%20365%2C215%20365%2C225%22%20fill%3D%22%23334155%22%2F%3E%3Ctext%20x%3D%22370%22%20y%3D%22238%22%20fill%3D%22%23334155%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22bold%22%3EX%3C%2Ftext%3E%3Cline%20x1%3D%2270%22%20y1%3D%22250%22%20x2%3D%2270%22%20y2%3D%2230%22%20stroke%3D%22%23334155%22%20stroke-width%3D%222%22%2F%3E%3Cpolygon%20points%3D%2270%2C25%2065%2C35%2075%2C35%22%20fill%3D%22%23334155%22%2F%3E%3Ctext%20x%3D%2255%22%20y%3D%2235%22%20fill%3D%22%23334155%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22bold%22%3EY%3C%2Ftext%3E%3Ccircle%20cx%3D%22270%22%20cy%3D%22220%22%20r%3D%225%22%20fill%3D%22%23dc2626%22%2F%3E%3Ctext%20x%3D%22255%22%20y%3D%22240%22%20fill%3D%22%23dc2626%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22bold%22%3E(6%2C%200)%3C%2Ftext%3E%3Ccircle%20cx%3D%2270%22%20cy%3D%2290%22%20r%3D%225%22%20fill%3D%22%23dc2626%22%2F%3E%3Ctext%20x%3D%2220%22%20y%3D%2295%22%20fill%3D%22%23dc2626%22%20font-family%3D%22sans-serif%22%20font-size%3D%2212%22%20font-weight%3D%22bold%22%3E(0%2C%204)%3C%2Ftext%3E%3Cline%20x1%3D%2235%22%20y1%3D%2267%22%20x2%3D%22320%22%20y2%3D%22253%22%20stroke%3D%22%23059669%22%20stroke-width%3D%223%22%2F%3E%3Ctext%20x%3D%22180%22%20y%3D%22135%22%20fill%3D%22%23065f46%22%20font-family%3D%22sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22bold%22%20transform%3D%22rotate(33%20180%2C135)%22%3E2x%20%2B%203y%20%3D%2012%3C%2Ftext%3E%3C%2Fsvg%3E",
+      "image_caption": "Gambar 1. Titik potong garis pembatas 2x + 3y = 12 pada Bidang Koordinat Cartesius",
+      "question_order": 5,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg4-1",
+      "competency_id": "comp-4",
+      "question_text": "Diberikan sistem pertidaksamaan: x + y ≤ 4, x ≥ 0, y ≥ 0. Bentuk daerah himpunan penyelesaian pada bidang Cartesius adalah...",
+      "option_a": "Persegi panjang di kuadran II",
+      "option_b": "Segitiga siku-siku dengan titik-titik sudut di (0,0), (4,0), dan (0,4)",
+      "option_c": "Trapesium siku-siku tak hingga",
+      "option_d": "Garis lurus tunggal",
+      "correct_answer": "B",
+      "explanation": "Daerah dibatasi oleh sumbu-X (y ≥ 0), sumbu-Y (x ≥ 0), dan garis x + y = 4 di Kuadran I, membentuk segitiga siku-siku dengan titik pojok (0,0), (4,0), dan (0,4).",
+      "question_order": 1,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg4-2",
+      "competency_id": "comp-4",
+      "question_text": "Daerah himpunan penyelesaian dari suatu Sistem Pertidaksamaan Linear Dua Variabel (SPTLDV) merupakan...",
+      "option_a": "Irisan (perpotongan serentak) dari seluruh daerah penyelesaian pertidaksamaan penyusunnya",
+      "option_b": "Gabungan tanpa batas dari semua daerah yang tidak diarsir",
+      "option_c": "Hanya satu titik potong kedua garis batas",
+      "option_d": "Semua titik di luar bidang koordinat",
+      "correct_answer": "A",
+      "explanation": "Penyelesaian sistem adalah irisan (interseksi) dari semua pertidaksamaan anggota sistem tersebut secara bersamaan.",
+      "question_order": 2,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg4-3",
+      "competency_id": "comp-4",
+      "question_text": "Dua garis batas dari suatu SPTLDV adalah x + y = 5 dan 2x + y = 7. Koordinat titik potong kedua garis pembatas tersebut adalah...",
+      "option_a": "(1, 4)",
+      "option_b": "(2, 3)",
+      "option_c": "(3, 2)",
+      "option_d": "(4, 1)",
+      "correct_answer": "B",
+      "explanation": "Kurangkan kedua persamaan: (2x + y) - (x + y) = 7 - 5 => x = 2. Lalu y = 5 - 2 = 3. Jadi titik potongnya adalah (2, 3).",
+      "question_order": 3,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg4-4",
+      "competency_id": "comp-4",
+      "question_text": "Jika daerah penyelesaian suatu SPTLDV memiliki titik-titik pojok (0, 0), (3, 0), (2, 2), dan (0, 4), maka nilai maksimum fungsi objektif f(x, y) = 4x + 3y adalah...",
+      "option_a": "12",
+      "option_b": "14",
+      "option_c": "15",
+      "option_d": "18",
+      "correct_answer": "B",
+      "explanation": "Uji titik pojok: f(0,0)=0; f(3,0)=4(3)+0=12; f(2,2)=4(2)+3(2)=8+6=14; f(0,4)=4(0)+3(4)=12. Nilai maksimum adalah 14 pada titik (2, 2).",
+      "question_order": 4,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    },
+    {
+      "id": "q-prg4-5",
+      "competency_id": "comp-4",
+      "question_text": "Diberikan sistem: 2x + y ≤ 6, x + 2y ≤ 6, x ≥ 0, y ≥ 0. Manakah titik uji di bawah ini yang berada di DALAM daerah penyelesaian sistem tersebut?",
+      "option_a": "(1, 1)",
+      "option_b": "(3, 3)",
+      "option_c": "(0, 4)",
+      "option_d": "(4, 0)",
+      "correct_answer": "A",
+      "explanation": "Uji (1, 1): 2(1)+1 = 3 ≤ 6 (Benar) dan 1+2(1) = 3 ≤ 6 (Benar). Titik (3, 3) menghasilkan 9 > 6 (Salah). Titik (0,4) menghasilkan 8 > 6. Titik (4,0) menghasilkan 8 > 6.",
+      "question_order": 5,
+      "active": true,
+      "created_by": "u-teacher-1",
+      "created_at": "2026-10-03T09:48:02.465Z",
+      "updated_at": "2026-10-03T09:48:02.465Z",
+      "chapter_id": "chap-1"
+    }
+  ],
+  "attempts": [
+    {
+      "id": "att-budi-1",
+      "student_id": "std-1",
+      "competency_id": "comp-1",
+      "started_at": "2026-10-01T09:48:02.465Z",
+      "submitted_at": "2026-10-01T09:51:02.465Z",
+      "correct_count": 5,
+      "question_count": 5,
+      "percentage": 100,
+      "mastery_status": "ACHIEVED",
+      "ai_feedback": "Luar biasa! Pemahamanmu terhadap konsep prasyarat eliminasi, substitusi, dan bentuk umum PLDV sudah sangat matang. Kamu siap melanjutkan ke Makna Tanda Pertidaksamaan.",
+      "created_at": "2026-10-01T09:48:02.465Z"
+    },
+    {
+      "id": "att-budi-2",
+      "student_id": "std-1",
+      "competency_id": "comp-2",
+      "started_at": "2026-10-02T09:48:02.465Z",
+      "submitted_at": "2026-10-02T09:52:02.465Z",
+      "correct_count": 3,
+      "question_count": 5,
+      "percentage": 60,
+      "mastery_status": "DEVELOPING",
+      "ai_feedback": "Kompetensi sedang berkembang. Kamu sudah memahami pembacaan simbol verbal, namun perlu memperkuat konsep garis putus-putus pada tanda ketidaksamaan murni (<, >) serta uji titik selidik. Jangan ragu untuk mencoba kembali!",
+      "created_at": "2026-10-02T09:48:02.465Z"
+    },
+    {
+      "id": "att-siti-1",
+      "student_id": "std-2",
+      "competency_id": "comp-1",
+      "started_at": "2026-09-30T09:48:02.465Z",
+      "submitted_at": "2026-09-30T09:51:22.465Z",
+      "correct_count": 5,
+      "question_count": 5,
+      "percentage": 100,
+      "mastery_status": "ACHIEVED",
+      "ai_feedback": "Penguasaan konsep sangat baik. Siap melangkah ke tahap berikutnya.",
+      "created_at": "2026-09-30T09:48:02.465Z"
+    },
+    {
+      "id": "att-siti-2",
+      "student_id": "std-2",
+      "competency_id": "comp-2",
+      "started_at": "2026-10-01T09:48:02.465Z",
+      "submitted_at": "2026-10-01T09:51:12.465Z",
+      "correct_count": 4,
+      "question_count": 5,
+      "percentage": 80,
+      "mastery_status": "ACHIEVED",
+      "ai_feedback": "Kompetensi tercapai pada tahap penguasaan mandiri. Siap melanjutkan ke pos berikutnya.",
+      "created_at": "2026-10-01T09:48:02.465Z"
+    },
+    {
+      "id": "att-siti-3",
+      "student_id": "std-2",
+      "competency_id": "comp-3",
+      "started_at": "2026-10-02T09:48:02.465Z",
+      "submitted_at": "2026-10-02T09:51:42.465Z",
+      "correct_count": 5,
+      "question_count": 5,
+      "percentage": 100,
+      "mastery_status": "ACHIEVED",
+      "ai_feedback": "Hebat! Pemahaman daerah himpunan penyelesaian PTLDV dan uji titik selidik sangat akurat.",
+      "created_at": "2026-10-02T09:48:02.465Z"
+    },
+    {
+      "id": "att-siti-4",
+      "student_id": "std-2",
+      "competency_id": "comp-4",
+      "started_at": "2026-10-03T04:48:02.465Z",
+      "submitted_at": "2026-10-03T04:53:02.465Z",
+      "correct_count": 3,
+      "question_count": 5,
+      "percentage": 60,
+      "mastery_status": "DEVELOPING",
+      "ai_feedback": "Sedang berkembang. Teliti kembali irisan beberapa garis pembatas dan perhitungan titik potong eliminasi.",
+      "created_at": "2026-10-03T04:48:02.465Z"
+    },
+    {
+      "student_id": "std-1",
+      "competency_id": "comp-2",
+      "started_at": "2026-10-03T09:46:23.488Z",
+      "submitted_at": "2026-10-03T09:48:23.487Z",
+      "correct_count": 5,
+      "question_count": 5,
+      "percentage": 100,
+      "mastery_status": "ACHIEVED",
+      "ai_feedback": "Halo, Budi Santoso! Luar biasa sekali usahamu dalam asesmen kali ini. Kamu berhasil menyelesaikan seluruh 5 tantangan pada kompetensi **Makna Tanda Pertidaksamaan** dengan sempurna (100%). Pencapaian ini merupakan bukti nyata dari fokus, ketekunan, dan komitmenmu dalam memahami konsep dasar matematika. Ingat, keberhasilan ini adalah bagian dari perjalanan belajarmu yang unik dan patut kamu rayakan!\n\nDari hasil pekerjaanmu, terlihat jelas bahwa kamu sudah memiliki pemahaman konsep yang sangat kokoh. Kamu mampu mengidentifikasi dan membedakan makna simbol-simbol pertidaksamaan ($<, >, \\le, \\ge$) serta menerapkannya dengan tepat ke dalam konteks soal. Tidak ditemukan miskonsepsi dalam asesmen ini; kamu sudah benar-benar menguasai bagaimana menerjemahkan batasan nilai matematis ke dalam simbol yang sesuai. Fondasi ini akan menjadi modal yang sangat kuat untuk materi berikutnya.\n\nSebagai langkah aksi selanjutnya, kamu sudah sangat siap untuk melangkah ke tantangan baru! Cobalah mengeksplorasi materi **Penyelesaian Pertidaksamaan Linear Satu Variabel** atau memvisualisasikan tanda pertidaksamaan tersebut ke dalam **garis bilangan**. Di materi berikutnya, tantangannya tentu akan bertambah—jika nanti kamu menemukan kesulitan atau membuat kesalahan, jangan khawatir, karena itulah saat di mana otakmu sedang bertumbuh. Terus pertahankan semangat dan rasa ingin tahumu yang hebat ini, Budi!",
+      "id": "att-f94d1cd4-e1ae-48b0-9b73-806331f36469",
+      "created_at": "2026-10-03T09:48:32.005Z"
+    },
+    {
+      "student_id": "std-1",
+      "competency_id": "comp-3",
+      "started_at": "2026-10-03T09:56:08.482Z",
+      "submitted_at": "2026-10-03T09:56:37.452Z",
+      "correct_count": 0,
+      "question_count": 5,
+      "percentage": 0,
+      "mastery_status": "DEVELOPING",
+      "ai_feedback": "Kerja bagus untuk usahamu hari ini, Budi Santoso! Saat ini posisimu berada di tahap Sedang Berkembang (0%). Fokus utama untuk perbaikan: Uji titik (2, 2): 2 + 2(2) = 2 + 4 = 6 ≤ 8 (BENAR). Pilihan A: 5 + 6 = 11 > 8 (Salah). Pilihan C: 6 + 4 = 10 > 8. Pilihan D: 4 + 8 = 12 > 8. Karena 0 < 6 bernilai benar, daerah penyelesaian memuat (0, 0). Tanda < tanpa sama dengan berarti garis batas putus-putus. Luangkan waktu untuk mengkaji kembali materi, lalu silakan lakukan asesmen ulang (retry) untuk mencapai penguasaan maksimal!",
+      "id": "att-94e72098-914a-4917-a130-d9d955d19377",
+      "created_at": "2026-10-03T09:56:41.107Z"
+    },
+    {
+      "student_id": "std-3",
+      "competency_id": "comp-1",
+      "started_at": "2026-10-03T14:00:21.703Z",
+      "submitted_at": "2026-10-03T14:01:29.056Z",
+      "correct_count": 4,
+      "question_count": 5,
+      "percentage": 80,
+      "mastery_status": "ACHIEVED",
+      "ai_feedback": "Luar biasa, Ahmad Fauzi! Kamu telah berhasil menguasai kompetensi Prasyarat PLDV dengan capaian 80%. Pemahaman konsepmu sangat solid. Kamu dapat melanjutkan ke kompetensi berikutnya pada Learning Journey dengan percaya diri!",
+      "id": "att-5940f9f4-d275-4b11-a232-ea6085a8e5d7",
+      "created_at": "2026-10-03T14:01:33.060Z"
+    },
+    {
+      "student_id": "std-3",
+      "competency_id": "comp-2",
+      "started_at": "2026-10-03T14:03:51.717Z",
+      "submitted_at": "2026-10-03T14:04:42.694Z",
+      "correct_count": 3,
+      "question_count": 5,
+      "percentage": 60,
+      "mastery_status": "DEVELOPING",
+      "ai_feedback": "Kerja bagus untuk usahamu hari ini, Ahmad Fauzi! Saat ini posisimu berada di tahap Sedang Berkembang (60%). Fokus utama untuk perbaikan: Karena uji titik (0, 0) menghasilkan pernyataan salah, maka (0,0) bukan penyelesaian, sehingga daerah yang diarsir adalah sisi yang tidak memuat (0, 0). Simbol \"≥\" adalah \"lebih dari atau sama dengan\" (at least / minimum). Luangkan waktu untuk mengkaji kembali materi, lalu silakan lakukan asesmen ulang (retry) untuk mencapai penguasaan maksimal!",
+      "id": "att-1e610340-6cdf-43c9-af58-6d86b4de431b",
+      "created_at": "2026-10-03T14:04:46.189Z"
+    },
+    {
+      "student_id": "std-3",
+      "competency_id": "comp-2",
+      "started_at": "2026-10-03T14:09:09.682Z",
+      "submitted_at": "2026-10-03T14:09:25.581Z",
+      "correct_count": 1,
+      "question_count": 5,
+      "percentage": 20,
+      "mastery_status": "DEVELOPING",
+      "ai_feedback": "Kerja bagus untuk usahamu hari ini, Ahmad Fauzi! Saat ini posisimu berada di Tahap Sedang Berkembang. Fokus utama untuk perbaikan: \"Tidak boleh melebihi\" berarti paling banyak 100 kg, dinotasikan dengan tanda \"≤\" (kurang dari atau sama dengan). Karena uji titik (0, 0) menghasilkan pernyataan salah, maka (0,0) bukan penyelesaian, sehingga daerah yang diarsir adalah sisi yang tidak memuat (0, 0). Luangkan waktu untuk mengkaji kembali materi, lalu silakan lakukan asesmen ulang (retry) untuk mencapai penguasaan maksimal!",
+      "id": "att-6764440a-9b4a-43ba-b8d3-371e16245e95",
+      "created_at": "2026-10-03T14:09:29.585Z"
+    }
+  ],
+  "responses": [
+    {
+      "id": "resp-1",
+      "attempt_id": "att-budi-1",
+      "student_id": "std-1",
+      "question_id": "q-prg1-1",
+      "selected_answer": "A",
+      "is_correct": true,
+      "answered_at": "2026-10-01T09:51:02.465Z"
+    },
+    {
+      "id": "resp-2",
+      "attempt_id": "att-budi-1",
+      "student_id": "std-1",
+      "question_id": "q-prg1-2",
+      "selected_answer": "B",
+      "is_correct": true,
+      "answered_at": "2026-10-01T09:51:02.465Z"
+    },
+    {
+      "id": "resp-3",
+      "attempt_id": "att-budi-1",
+      "student_id": "std-1",
+      "question_id": "q-prg1-3",
+      "selected_answer": "C",
+      "is_correct": true,
+      "answered_at": "2026-10-01T09:51:02.465Z"
+    },
+    {
+      "id": "resp-4",
+      "attempt_id": "att-budi-1",
+      "student_id": "std-1",
+      "question_id": "q-prg1-4",
+      "selected_answer": "B",
+      "is_correct": true,
+      "answered_at": "2026-10-01T09:51:02.465Z"
+    },
+    {
+      "id": "resp-5",
+      "attempt_id": "att-budi-1",
+      "student_id": "std-1",
+      "question_id": "q-prg1-5",
+      "selected_answer": "B",
+      "is_correct": true,
+      "answered_at": "2026-10-01T09:51:02.465Z"
+    },
+    {
+      "id": "resp-6",
+      "attempt_id": "att-budi-2",
+      "student_id": "std-1",
+      "question_id": "q-prg2-1",
+      "selected_answer": "A",
+      "is_correct": false,
+      "answered_at": "2026-10-02T09:52:02.465Z"
+    },
+    {
+      "id": "resp-7",
+      "attempt_id": "att-budi-2",
+      "student_id": "std-1",
+      "question_id": "q-prg2-2",
+      "selected_answer": "C",
+      "is_correct": true,
+      "answered_at": "2026-10-02T09:52:02.465Z"
+    },
+    {
+      "id": "resp-8",
+      "attempt_id": "att-budi-2",
+      "student_id": "std-1",
+      "question_id": "q-prg2-3",
+      "selected_answer": "A",
+      "is_correct": false,
+      "answered_at": "2026-10-02T09:52:02.465Z"
+    },
+    {
+      "id": "resp-9",
+      "attempt_id": "att-budi-2",
+      "student_id": "std-1",
+      "question_id": "q-prg2-4",
+      "selected_answer": "C",
+      "is_correct": true,
+      "answered_at": "2026-10-02T09:52:02.465Z"
+    },
+    {
+      "id": "resp-10",
+      "attempt_id": "att-budi-2",
+      "student_id": "std-1",
+      "question_id": "q-prg2-5",
+      "selected_answer": "B",
+      "is_correct": true,
+      "answered_at": "2026-10-02T09:52:02.465Z"
+    },
+    {
+      "attempt_id": "att-f94d1cd4-e1ae-48b0-9b73-806331f36469",
+      "student_id": "std-1",
+      "question_id": "q-prg2-1",
+      "selected_answer": "B",
+      "is_correct": true,
+      "answered_at": "2026-10-03T09:48:23.487Z",
+      "id": "resp-674dc2df-4d12-443f-9e8e-f586b2d6000a"
+    },
+    {
+      "attempt_id": "att-f94d1cd4-e1ae-48b0-9b73-806331f36469",
+      "student_id": "std-1",
+      "question_id": "q-prg2-2",
+      "selected_answer": "C",
+      "is_correct": true,
+      "answered_at": "2026-10-03T09:48:23.487Z",
+      "id": "resp-01a578e3-6739-4ace-a5e2-d80c2454896b"
+    },
+    {
+      "attempt_id": "att-f94d1cd4-e1ae-48b0-9b73-806331f36469",
+      "student_id": "std-1",
+      "question_id": "q-prg2-3",
+      "selected_answer": "B",
+      "is_correct": true,
+      "answered_at": "2026-10-03T09:48:23.487Z",
+      "id": "resp-f1f5c8e3-ca18-427b-a901-a146b0a48abd"
+    },
+    {
+      "attempt_id": "att-f94d1cd4-e1ae-48b0-9b73-806331f36469",
+      "student_id": "std-1",
+      "question_id": "q-prg2-4",
+      "selected_answer": "C",
+      "is_correct": true,
+      "answered_at": "2026-10-03T09:48:23.487Z",
+      "id": "resp-bc1a1417-2e78-462e-9502-1b182925b9e9"
+    },
+    {
+      "attempt_id": "att-f94d1cd4-e1ae-48b0-9b73-806331f36469",
+      "student_id": "std-1",
+      "question_id": "q-prg2-5",
+      "selected_answer": "B",
+      "is_correct": true,
+      "answered_at": "2026-10-03T09:48:23.487Z",
+      "id": "resp-8ac1703e-066d-4362-b318-3bd7fd374fb6"
+    },
+    {
+      "attempt_id": "att-94e72098-914a-4917-a130-d9d955d19377",
+      "student_id": "std-1",
+      "question_id": "q-prg3-1",
+      "selected_answer": "C",
+      "is_correct": false,
+      "answered_at": "2026-10-03T09:56:37.452Z",
+      "id": "resp-6ef1249c-2e9d-492a-a955-07b5c9272a3d"
+    },
+    {
+      "attempt_id": "att-94e72098-914a-4917-a130-d9d955d19377",
+      "student_id": "std-1",
+      "question_id": "q-prg3-2",
+      "selected_answer": "C",
+      "is_correct": false,
+      "answered_at": "2026-10-03T09:56:37.452Z",
+      "id": "resp-c94c4dce-d9c0-44f8-81d8-e6897ffb14e2"
+    },
+    {
+      "attempt_id": "att-94e72098-914a-4917-a130-d9d955d19377",
+      "student_id": "std-1",
+      "question_id": "q-prg3-3",
+      "selected_answer": "D",
+      "is_correct": false,
+      "answered_at": "2026-10-03T09:56:37.452Z",
+      "id": "resp-8f875f67-ae52-4476-80f4-c1fe7eed7901"
+    },
+    {
+      "attempt_id": "att-94e72098-914a-4917-a130-d9d955d19377",
+      "student_id": "std-1",
+      "question_id": "q-prg3-4",
+      "selected_answer": "D",
+      "is_correct": false,
+      "answered_at": "2026-10-03T09:56:37.452Z",
+      "id": "resp-5b484d73-15a1-4911-af5c-457af696a3b2"
+    },
+    {
+      "attempt_id": "att-94e72098-914a-4917-a130-d9d955d19377",
+      "student_id": "std-1",
+      "question_id": "q-prg3-5",
+      "selected_answer": "D",
+      "is_correct": false,
+      "answered_at": "2026-10-03T09:56:37.452Z",
+      "id": "resp-9892459e-59a3-44a8-b683-362bdeaa58dd"
+    },
+    {
+      "attempt_id": "att-5940f9f4-d275-4b11-a232-ea6085a8e5d7",
+      "student_id": "std-3",
+      "question_id": "q-prg1-1",
+      "selected_answer": "B",
+      "is_correct": false,
+      "answered_at": "2026-10-03T14:01:29.056Z",
+      "id": "resp-87a7d99c-fe95-446b-b918-ec85bd659da9"
+    },
+    {
+      "attempt_id": "att-5940f9f4-d275-4b11-a232-ea6085a8e5d7",
+      "student_id": "std-3",
+      "question_id": "q-prg1-2",
+      "selected_answer": "B",
+      "is_correct": true,
+      "answered_at": "2026-10-03T14:01:29.056Z",
+      "id": "resp-3d900a2c-71bf-405c-b9f9-2222786f015d"
+    },
+    {
+      "attempt_id": "att-5940f9f4-d275-4b11-a232-ea6085a8e5d7",
+      "student_id": "std-3",
+      "question_id": "q-prg1-3",
+      "selected_answer": "C",
+      "is_correct": true,
+      "answered_at": "2026-10-03T14:01:29.056Z",
+      "id": "resp-be7e07fa-5f31-48ff-9d08-27f07c2268b7"
+    },
+    {
+      "attempt_id": "att-5940f9f4-d275-4b11-a232-ea6085a8e5d7",
+      "student_id": "std-3",
+      "question_id": "q-prg1-4",
+      "selected_answer": "B",
+      "is_correct": true,
+      "answered_at": "2026-10-03T14:01:29.056Z",
+      "id": "resp-6bf6a7a1-6131-415e-a9ad-2ca3cb7e2596"
+    },
+    {
+      "attempt_id": "att-5940f9f4-d275-4b11-a232-ea6085a8e5d7",
+      "student_id": "std-3",
+      "question_id": "q-prg1-5",
+      "selected_answer": "B",
+      "is_correct": true,
+      "answered_at": "2026-10-03T14:01:29.056Z",
+      "id": "resp-b09336df-9684-4ebd-96ff-ae785494122c"
+    },
+    {
+      "attempt_id": "att-1e610340-6cdf-43c9-af58-6d86b4de431b",
+      "student_id": "std-3",
+      "question_id": "q-prg2-1",
+      "selected_answer": "B",
+      "is_correct": true,
+      "answered_at": "2026-10-03T14:04:42.694Z",
+      "id": "resp-ec57d3f7-eaae-404b-b82c-c80d7d23106f"
+    },
+    {
+      "attempt_id": "att-1e610340-6cdf-43c9-af58-6d86b4de431b",
+      "student_id": "std-3",
+      "question_id": "q-prg2-2",
+      "selected_answer": "C",
+      "is_correct": true,
+      "answered_at": "2026-10-03T14:04:42.694Z",
+      "id": "resp-86ff6d9f-cbae-48f6-ad10-1771dc596c43"
+    },
+    {
+      "attempt_id": "att-1e610340-6cdf-43c9-af58-6d86b4de431b",
+      "student_id": "std-3",
+      "question_id": "q-prg2-3",
+      "selected_answer": "D",
+      "is_correct": false,
+      "answered_at": "2026-10-03T14:04:42.694Z",
+      "id": "resp-6597a64f-f80b-447f-a927-e4d57a2f1159"
+    },
+    {
+      "attempt_id": "att-1e610340-6cdf-43c9-af58-6d86b4de431b",
+      "student_id": "std-3",
+      "question_id": "q-prg2-4",
+      "selected_answer": "B",
+      "is_correct": false,
+      "answered_at": "2026-10-03T14:04:42.694Z",
+      "id": "resp-b50fbd76-bfc6-46b4-9141-2ff532d04dee"
+    },
+    {
+      "attempt_id": "att-1e610340-6cdf-43c9-af58-6d86b4de431b",
+      "student_id": "std-3",
+      "question_id": "q-prg2-5",
+      "selected_answer": "B",
+      "is_correct": true,
+      "answered_at": "2026-10-03T14:04:42.694Z",
+      "id": "resp-7927ff2b-479b-4248-a86d-b5ecb523f2d9"
+    },
+    {
+      "attempt_id": "att-6764440a-9b4a-43ba-b8d3-371e16245e95",
+      "student_id": "std-3",
+      "question_id": "q-prg2-1",
+      "selected_answer": "B",
+      "is_correct": true,
+      "answered_at": "2026-10-03T14:09:25.581Z",
+      "id": "resp-9fc03cf4-cb7e-4091-ba30-4b03f200f52b"
+    },
+    {
+      "attempt_id": "att-6764440a-9b4a-43ba-b8d3-371e16245e95",
+      "student_id": "std-3",
+      "question_id": "q-prg2-2",
+      "selected_answer": "D",
+      "is_correct": false,
+      "answered_at": "2026-10-03T14:09:25.581Z",
+      "id": "resp-ea54954e-2af5-4562-a01b-016a0b5bcf7f"
+    },
+    {
+      "attempt_id": "att-6764440a-9b4a-43ba-b8d3-371e16245e95",
+      "student_id": "std-3",
+      "question_id": "q-prg2-3",
+      "selected_answer": "C",
+      "is_correct": false,
+      "answered_at": "2026-10-03T14:09:25.581Z",
+      "id": "resp-d2148001-06f2-4bd2-b11e-1cd86ec3b603"
+    },
+    {
+      "attempt_id": "att-6764440a-9b4a-43ba-b8d3-371e16245e95",
+      "student_id": "std-3",
+      "question_id": "q-prg2-4",
+      "selected_answer": "D",
+      "is_correct": false,
+      "answered_at": "2026-10-03T14:09:25.581Z",
+      "id": "resp-234ff2b7-d828-4c0a-b6f6-103f4a864d0d"
+    },
+    {
+      "attempt_id": "att-6764440a-9b4a-43ba-b8d3-371e16245e95",
+      "student_id": "std-3",
+      "question_id": "q-prg2-5",
+      "selected_answer": "A",
+      "is_correct": false,
+      "answered_at": "2026-10-03T14:09:25.581Z",
+      "id": "resp-4d73d160-3799-4e98-ada5-b381eaf33db7"
+    }
+  ],
+  "audit_logs": [
+    {
+      "id": "log-1",
+      "timestamp": "2026-10-03T09:48:02.465Z",
+      "actor_user_id": "u-teacher-1",
+      "actor_name": "Ibu Ratna Dewi, M.Pd.",
+      "actor_role": "teacher",
+      "action": "SYSTEM_INIT",
+      "details": {
+        "message": "Inisialisasi sistem Personal Learning Journey dan modul Matematika SPLDV/SPTLDV"
+      }
+    },
+    {
+      "id": "log-0e7b76f6-dcb5-4029-8eb6-ffe47e5e966a",
+      "timestamp": "2026-10-03T09:48:32.007Z",
+      "actor_user_id": "std-1",
+      "actor_name": "Budi Santoso",
+      "actor_role": "student",
+      "action": "SUBMIT_ASSESSMENT",
+      "details": {
+        "attempt_id": "att-f94d1cd4-e1ae-48b0-9b73-806331f36469",
+        "competency_code": "PRG-2",
+        "correct_count": 5,
+        "total": 5,
+        "percentage": 100,
+        "mastery_status": "ACHIEVED",
+        "competency_status_now": "ACHIEVED"
+      }
+    },
+    {
+      "id": "log-0536584f-6f55-4be4-91a4-4eefc3cdd9cf",
+      "timestamp": "2026-10-03T09:56:41.109Z",
+      "actor_user_id": "std-1",
+      "actor_name": "Budi Santoso",
+      "actor_role": "student",
+      "action": "SUBMIT_ASSESSMENT",
+      "details": {
+        "attempt_id": "att-94e72098-914a-4917-a130-d9d955d19377",
+        "competency_code": "PRG-3",
+        "correct_count": 0,
+        "total": 5,
+        "percentage": 0,
+        "mastery_status": "DEVELOPING",
+        "competency_status_now": "DEVELOPING"
+      }
+    },
+    {
+      "id": "log-10c01184-c5a9-4e28-9fd5-8ec8ae6de42a",
+      "timestamp": "2026-10-03T10:05:39.325Z",
+      "actor_user_id": "std-1",
+      "actor_name": "Budi Santoso",
+      "actor_role": "student",
+      "action": "SUBMIT_REFLECTION",
+      "details": {
+        "reflection_id": "refl-8c88289e-f6d1-42f4-9105-ca16467054ec",
+        "competency_id": "comp-2",
+        "feeling": "Ragu dan cemas saat melihat rumus atau tanda baru"
+      }
+    },
+    {
+      "id": "log-eda77b16-fcf0-4660-bdee-7f075c82574a",
+      "timestamp": "2026-10-03T10:22:28.802Z",
+      "actor_user_id": "u-student-1",
+      "actor_name": "Budi Santoso",
+      "actor_role": "student",
+      "action": "USER_LOGIN",
+      "details": {
+        "email": "budi@sekolah.id"
+      }
+    },
+    {
+      "id": "log-a4611b4c-93e5-4efb-a853-48677e50375d",
+      "timestamp": "2026-10-03T11:38:27.436Z",
+      "actor_user_id": "u-teacher-1",
+      "actor_name": "Ibu Ratna Dewi, M.Pd.",
+      "actor_role": "teacher",
+      "action": "USER_LOGIN",
+      "details": {
+        "email": "guru.ratna@sekolah.id"
+      }
+    },
+    {
+      "id": "log-232f17a0-c74c-4d3f-be03-150a8648a19e",
+      "timestamp": "2026-10-03T13:43:50.076Z",
+      "actor_user_id": "u-student-4",
+      "actor_name": "Dewi Lestari",
+      "actor_role": "student",
+      "action": "USER_LOGIN",
+      "details": {
+        "email": "dewi@sekolah.id"
+      }
+    },
+    {
+      "id": "log-7b0cba4e-9ada-44f7-b667-2e2803160684",
+      "timestamp": "2026-10-03T13:49:19.287Z",
+      "actor_user_id": "u-student-4",
+      "actor_name": "Dewi Lestari",
+      "actor_role": "student",
+      "action": "USER_LOGIN",
+      "details": {
+        "email": "dewi@sekolah.id"
+      }
+    },
+    {
+      "id": "log-f84951de-5ac6-41e7-bddb-7c2b859b7551",
+      "timestamp": "2026-10-03T13:54:38.446Z",
+      "actor_user_id": "u-teacher-1",
+      "actor_name": "Ibu Ratna Dewi, M.Pd.",
+      "actor_role": "teacher",
+      "action": "USER_LOGIN",
+      "details": {
+        "email": "guru.ratna@sekolah.id"
+      }
+    },
+    {
+      "id": "log-2c6bf743-3f42-4ba1-92a6-9a5d3f5eccae",
+      "timestamp": "2026-10-03T14:01:33.062Z",
+      "actor_user_id": "std-3",
+      "actor_name": "Ahmad Fauzi",
+      "actor_role": "student",
+      "action": "SUBMIT_ASSESSMENT",
+      "details": {
+        "attempt_id": "att-5940f9f4-d275-4b11-a232-ea6085a8e5d7",
+        "competency_code": "PRG-1",
+        "correct_count": 4,
+        "total": 5,
+        "percentage": 80,
+        "mastery_status": "ACHIEVED",
+        "competency_status_now": "ACHIEVED"
+      }
+    },
+    {
+      "id": "log-1e4ac1c9-913e-44b9-8e17-057de9f622bf",
+      "timestamp": "2026-10-03T14:04:46.197Z",
+      "actor_user_id": "std-3",
+      "actor_name": "Ahmad Fauzi",
+      "actor_role": "student",
+      "action": "SUBMIT_ASSESSMENT",
+      "details": {
+        "attempt_id": "att-1e610340-6cdf-43c9-af58-6d86b4de431b",
+        "competency_code": "PRG-2",
+        "correct_count": 3,
+        "total": 5,
+        "percentage": 60,
+        "mastery_status": "DEVELOPING",
+        "competency_status_now": "DEVELOPING"
+      }
+    },
+    {
+      "id": "log-401517f1-f376-424e-9612-93a3caa377e1",
+      "timestamp": "2026-10-03T14:09:29.587Z",
+      "actor_user_id": "std-3",
+      "actor_name": "Ahmad Fauzi",
+      "actor_role": "student",
+      "action": "SUBMIT_ASSESSMENT",
+      "details": {
+        "attempt_id": "att-6764440a-9b4a-43ba-b8d3-371e16245e95",
+        "competency_code": "PRG-2",
+        "correct_count": 1,
+        "total": 5,
+        "percentage": 20,
+        "mastery_status": "DEVELOPING",
+        "competency_status_now": "DEVELOPING"
+      }
+    },
+    {
+      "id": "log-bbe2c9aa-d378-49ef-9f10-a49f8d0f4472",
+      "timestamp": "2026-10-03T14:12:33.572Z",
+      "actor_user_id": "u-teacher-1",
+      "actor_name": "Ibu Ratna Dewi, M.Pd.",
+      "actor_role": "teacher",
+      "action": "USER_LOGIN",
+      "details": {
+        "email": "guru.ratna@sekolah.id"
+      }
+    },
+    {
+      "id": "log-fa04f45b-a870-4bee-953c-11c927af7aef",
+      "timestamp": "2026-10-03T14:13:28.522Z",
+      "actor_user_id": "u-teacher-1",
+      "actor_name": "Ibu Ratna Dewi, M.Pd.",
+      "actor_role": "teacher",
+      "action": "CREATE_USER",
+      "details": {
+        "created_user_id": "u-2d2b3f78-65d9-4e36-ab49-c0218a2c93e5",
+        "created_user_name": "Yahya Najmuddin Ahmad",
+        "role": "student"
+      }
+    },
+    {
+      "id": "log-352bd13d-4c41-4d00-9e66-56c493dca110",
+      "timestamp": "2026-10-03T14:14:03.601Z",
+      "actor_user_id": "u-teacher-1",
+      "actor_name": "Ibu Ratna Dewi, M.Pd.",
+      "actor_role": "teacher",
+      "action": "CREATE_USER",
+      "details": {
+        "created_user_id": "u-aa09f274-7201-49b3-80e9-4d61c7eae995",
+        "created_user_name": "Bu Homsa",
+        "role": "teacher"
+      }
+    },
+    {
+      "id": "log-d5fe3a4f-0d73-4368-b81b-be3052a175a3",
+      "timestamp": "2026-10-03T14:14:29.927Z",
+      "actor_user_id": "u-teacher-1",
+      "actor_name": "Ibu Ratna Dewi, M.Pd.",
+      "actor_role": "teacher",
+      "action": "CREATE_USER",
+      "details": {
+        "created_user_id": "u-d6be04cb-bcc0-4077-8050-933ea3ab0566",
+        "created_user_name": "homsalina",
+        "role": "teacher"
+      }
+    },
+    {
+      "id": "log-8c549bc5-497b-47a7-8d67-aa2b945c140f",
+      "timestamp": "2026-10-03T14:14:52.896Z",
+      "actor_user_id": "u-teacher-1",
+      "actor_name": "Ibu Ratna Dewi, M.Pd.",
+      "actor_role": "teacher",
+      "action": "CREATE_USER",
+      "details": {
+        "created_user_id": "u-cd139aad-51a3-422c-8a6d-2034e39d6a96",
+        "created_user_name": "Kinbim",
+        "role": "student"
+      }
+    },
+    {
+      "id": "log-bfbdc1ca-fb28-4beb-9869-438b779049c9",
+      "timestamp": "2026-10-03T14:20:12.949Z",
+      "actor_user_id": "u-teacher-1",
+      "actor_name": "Ibu Ratna Dewi, M.Pd.",
+      "actor_role": "teacher",
+      "action": "UPDATE_REFLECTION_NOTE",
+      "details": {
+        "reflection_id": "refl-yahya-1",
+        "student_id": "std-07e3afe0-1fc7-413b-a8f8-618a83eeb269"
+      }
+    }
+  ],
+  "reflections": [
+    {
+      "id": "refl-8c88289e-f6d1-42f4-9105-ca16467054ec",
+      "student_id": "std-1",
+      "competency_id": "comp-2",
+      "mindset_feeling": "Ragu dan cemas saat melihat rumus atau tanda baru",
+      "challenge_description": "Masih suka terbalik garis putus-putus dan garis tegas saat menggambar grafik.",
+      "action_plan": [
+        "Membaca kembali rangkuman konsep & catatan contoh soal",
+        "Mencoba uji titik selidik mandiri di kertas buram"
+      ],
+      "custom_action_text": "Saya menggambar ulang grafik contoh soal untuk memastikan letak daerah arsiran.",
+      "readiness_level": 4,
+      "ai_coaching_feedback": "Hai Budi Santoso, sangat wajar merasakan keraguan saat menghadapi konsep baru. Ingat prinsip neuroplastisitas: otak matematika bukanlah bawaan lahir, melainkan seperti otot yang bertumbuh setiap kali kamu bergulat dengan hal yang menantang! Rencana aksimu untuk \"Membaca kembali rangkuman konsep & catatan contoh soal\" adalah langkah yang sangat cerdas. Ambil nafas, pelajari langkah demi langkah, dan kamu pasti bisa melangkah lebih jauh pada tes ulang ini!",
+      "teacher_note": "Bagus sekali Budi! Kuncinya ingat jika ada tanda garis di bawahnya (≤ atau ≥) maka garisnya tegas/solid. Terus berlatih ya!",
+      "teacher_note_by": "Ibu Ratna Dewi, M.Pd.",
+      "teacher_note_at": "2026-10-03T11:00:00.000Z",
+      "created_at": "2026-10-03T10:05:39.324Z"
+    },
+    {
+      "id": "refl-siti-1",
+      "student_id": "std-2",
+      "competency_id": "comp-3",
+      "mindset_feeling": "Yakin bahwa latihan terarah akan membuatku menguasai konsep",
+      "challenge_description": "Awalnya sempat bingung saat menentukan daerah irisan bersih untuk 3 pertidaksamaan sekaligus, namun setelah menggunakan warna pensil berbeda jadi lebih jelas.",
+      "action_plan": [
+        "Mencoba uji titik selidik mandiri di kertas buram",
+        "Menandai perbedaan garis putus-putus (<, >) vs garis tegas (≤, ≥)",
+        "Mengerjakan 2 latihan mandiri secara perlahan tanpa terburu-buru"
+      ],
+      "custom_action_text": "Membuat tabel verifikasi tanda uji titik (0,0) di buku catatan.",
+      "readiness_level": 5,
+      "ai_coaching_feedback": "Luar biasa Siti Rahma! Mindset belajarmu sangat inspiratif. Menggunakan pensil warna untuk membedakan irisan daerah himpunan penyelesaian adalah strategi visual metakognisi yang luar biasa efektif. Pertahankan semangat ini!",
+      "created_at": "2026-10-03T08:20:15.110Z"
+    },
+    {
+      "id": "refl-ahmad-1",
+      "student_id": "std-3",
+      "competency_id": "comp-2",
+      "mindset_feeling": "Merasa \"aku memang tidak berbakat matematika\"",
+      "challenge_description": "Saya sering panik saat melihat soal cerita yang harus diubah ke bentuk sistem pertidaksamaan. Merasa teman-teman lain lebih cepat paham.",
+      "action_plan": [
+        "Membaca kembali rangkuman konsep & catatan contoh soal",
+        "Berdiskusi dengan teman sebaya atau menanyakan bagian ragu ke guru"
+      ],
+      "custom_action_text": "Saya ingin membuat daftar kata kunci matematika (seperti 'maksimum', 'tidak boleh lebih dari').",
+      "readiness_level": 3,
+      "ai_coaching_feedback": "Ahmad, perasaanmu sangat dimengerti dan kamu tidak sendirian! Tapi ketahuilah: tidak ada yang namanya 'bakat matematika alami'. Mereka yang tampak lebih cepat hanya memiliki lebih banyak jam terbang atau strategi yang tepat. Kamu belum terbiasa menerjemahkan kalimat verbal, BUKAN tidak bisa. Inisiatif membuat daftar kata kunci adalah langkah emas!",
+      "teacher_note": "Ahmad, jangan berkecil hati ya! Besok saat jam istirahat atau kelas pengayaan, kita bahas bersama kata-kata kuncinya. Kamu pasti bisa!",
+      "teacher_note_by": "Ibu Ratna Dewi, M.Pd.",
+      "teacher_note_at": "2026-10-03T09:30:00.000Z",
+      "created_at": "2026-10-02T13:45:10.000Z"
+    },
+    {
+      "id": "refl-yahya-1",
+      "student_id": "std-07e3afe0-1fc7-413b-a8f8-618a83eeb269",
+      "competency_id": "comp-1",
+      "mindset_feeling": "Mulai paham bahwa rasa bingung itu tanda otak sedang bertumbuh",
+      "challenge_description": "Terkadang masih salah hitung tanda minus (-) saat mengalikan baris eliminasi dengan konstanta negatif.",
+      "action_plan": [
+        "Membaca kembali rangkuman konsep & catatan contoh soal",
+        "Mengerjakan 2 latihan mandiri secara perlahan tanpa terburu-buru"
+      ],
+      "custom_action_text": "Menuliskan tanda kurung pada setiap bilangan negatif agar tidak terlewat.",
+      "readiness_level": 4,
+      "ai_coaching_feedback": "Sikap reflektif yang sangat matang, Yahya! Menemukan sumber kekeliruan spesifik (tanda minus pada eliminasi) dan langsung menyusun solusi kurung adalah contoh nyata Growth Mindset aktif. Terus asah ketelitianmu!",
+      "created_at": "2026-10-03T14:15:00.000Z",
+      "teacher_note": "Semangat terus Yahya, penggunaan tanda kurung sudah sangat tepat!",
+      "teacher_note_by": "Ibu Ratna Dewi, M.Pd.",
+      "teacher_note_at": "2026-10-03T14:20:12.948Z"
+    },
+    {
+      "id": "refl-dewi-1",
+      "student_id": "std-4",
+      "competency_id": "comp-4",
+      "mindset_feeling": "Ragu dan cemas saat melihat rumus atau tanda baru",
+      "challenge_description": "Sulit mencari titik potong antara dua garis miring jika angkanya pecahan atau tidak bulat.",
+      "action_plan": [
+        "Menonton kembali penjelasan video / modul langkah demi langkah",
+        "Mencoba uji titik selidik mandiri di kertas buram"
+      ],
+      "custom_action_text": "Berlatih pecahan aljabar dasar terlebih dahulu.",
+      "readiness_level": 3,
+      "ai_coaching_feedback": "Dewi, kebingungan ini sangat wajar karena materi ini menggabungkan aljabar pecahan dan geometri analitik! Jangan terburu-buru, selesaikan eliminasi variabel satu demi satu. Kesabaranmu mengurai soal rumit sedang memperkuat sinapsis otakmu!",
+      "created_at": "2026-10-03T06:12:40.000Z"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "chap-1",
+      "code": "BAB-1",
+      "title": "Program Linear Dua Variabel",
+      "description": "Sistem pertidaksamaan linear, grafik daerah himpunan penyelesaian, uji titik selidik, dan model optimasi nilai fungsi objektif.",
+      "sequence_order": 1,
+      "active": true,
+      "created_at": "2026-10-03T11:36:48.147Z",
+      "updated_at": "2026-10-03T11:36:48.147Z"
+    },
+    {
+      "id": "chap-2",
+      "code": "BAB-2",
+      "title": "Matriks & Transformasi Aljabar",
+      "description": "Pengantar ordo matriks, kesamaan matriks, operasi penjumlahan/perkalian matriks, determinan, dan invers matriks.",
+      "sequence_order": 2,
+      "active": true,
+      "created_at": "2026-10-03T11:36:48.147Z",
+      "updated_at": "2026-10-03T11:36:48.147Z"
+    }
+  ],
+  "subtopics": [
+    {
+      "id": "sub-1-1",
+      "competency_id": "comp-1",
+      "code": "1.1",
+      "title": "Metode Eliminasi & Substitusi SPLDV",
+      "remedial_guide": "Samakan koefisien variabel sasaran dengan perkalian konstanta sebelum menjumlah/mengurangkan persamaan.",
+      "sequence_order": 1
+    },
+    {
+      "id": "sub-1-2",
+      "competency_id": "comp-1",
+      "code": "1.2",
+      "title": "Menentukan Titik Potong Garis Linear pada Bidang Cartesius",
+      "remedial_guide": "Cari titik potong sumbu: jadikan x = 0 untuk sumbu Y, dan jadikan y = 0 untuk sumbu X.",
+      "sequence_order": 2
+    },
+    {
+      "id": "sub-2-1",
+      "competency_id": "comp-2",
+      "code": "2.1",
+      "title": "Menentukan Titik Potong Sumbu X dan Sumbu Y",
+      "remedial_guide": "Buat tabel koordinat: cari nilai y saat x = 0, lalu cari nilai x saat y = 0 untuk menentukan dua titik garis pembatas.",
+      "sequence_order": 1
+    },
+    {
+      "id": "sub-2-2",
+      "competency_id": "comp-2",
+      "code": "2.2",
+      "title": "Pemilihan Jenis Garis Pembatas (Putus-putus vs Tegas)",
+      "remedial_guide": "Perhatikan tanda: gunakan garis putus-putus untuk tanda ketidaksamaan murni (< atau >) dan garis tegas untuk tanda memuat sama dengan (≤ atau ≥).",
+      "sequence_order": 2
+    },
+    {
+      "id": "sub-2-3",
+      "competency_id": "comp-2",
+      "code": "2.3",
+      "title": "Uji Titik Selidik (0,0) untuk Penentuan Arah Arsiran",
+      "remedial_guide": "Substitusi titik (0,0) ke pertidaksamaan. Jika hasilnya BENAR, arsir daerah yang memuat titik (0,0). Jika SALAH, arsir daerah seberang.",
+      "sequence_order": 3
+    },
+    {
+      "id": "sub-2-4",
+      "competency_id": "comp-2",
+      "code": "2.4",
+      "title": "Interpretasi Verbal Simbol Pertidaksamaan (≤, ≥, <, >)",
+      "remedial_guide": "Kata \"maksimum / tidak boleh lebih dari\" setara dengan ≤. Kata \"minimum / paling sedikit\" setara dengan ≥.",
+      "sequence_order": 4
+    },
+    {
+      "id": "sub-3-1",
+      "competency_id": "comp-3",
+      "code": "3.1",
+      "title": "Menggambar Garis dan Daerah Bersih DHP",
+      "remedial_guide": "Tarik garis lurus melewati dua titik potong sumbu koordinat lalu arsirlah daerah yang bernilai benar.",
+      "sequence_order": 1
+    },
+    {
+      "id": "sub-3-2",
+      "competency_id": "comp-3",
+      "code": "3.2",
+      "title": "Mengecek Keanggotaan Titik Uji pada Himpunan Penyelesaian",
+      "remedial_guide": "Masukkan absis (x) dan ordinat (y) titik uji ke dalam pertidaksamaan, periksa apakah bernilai valid.",
+      "sequence_order": 2
+    },
+    {
+      "id": "sub-4-1",
+      "competency_id": "comp-4",
+      "code": "4.1",
+      "title": "Menentukan Irisan Gabungan Daerah SPTLDV",
+      "remedial_guide": "Gambarlah seluruh garis pembatas dalam satu bidang koordinat lalu cari daerah yang terkena irisan semua syarat.",
+      "sequence_order": 1
+    },
+    {
+      "id": "sub-4-2",
+      "competency_id": "comp-4",
+      "code": "4.2",
+      "title": "Menentukan Titik-Titik Pojok Daerah Penyelesaian",
+      "remedial_guide": "Titik pojok adalah titik potong antar garis batas pembatas DHP. Hitung koordinatnya menggunakan metode eliminasi/substitusi.",
+      "sequence_order": 2
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Personal Learning Journey",
+  "description": "Platform formative assessment untuk visualisasi perjalanan penguasaan kompetensi siswa berbasis mastery learning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
