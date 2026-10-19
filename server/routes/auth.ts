@@ -33,7 +33,12 @@ authRouter.post('/login', (req: Request, res: Response) => {
     return;
   }
 
-  const user = db.getUserByEmail(email.trim());
+  let loginEmail = String(email).trim();
+  if (!loginEmail.includes('@')) {
+    loginEmail = `${loginEmail}@sekolah.id`;
+  }
+
+  const user = db.getUserByEmail(loginEmail);
   if (!user) {
     res.status(401).json({ error: 'Akun dengan email ini tidak ditemukan.' });
     return;

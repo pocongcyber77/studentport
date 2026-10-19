@@ -1,73 +1,61 @@
 # Studentport — Personal Learning Journey
 
-Formative assessment app (mastery learning). Split deploy:
+Formative assessment app (mastery learning). Stack:
 
 ```
-Browser → Vercel (UI + rewrite /api)
-              ↓
-       Render Free (Express)
+Browser → Vercel (UI + /api serverless)
               ↓
        Neon Free (Postgres)
               ↓
        Gemini API (optional)
 ```
 
+Tidak perlu Render — API jalan sebagai **Vercel Function** (`api/`), data di **Neon**.
+
 ## Run locally
 
 ```bash
 npm install
+neon env pull    # optional: isi .env.local dengan DATABASE_URL
 npm run dev
 ```
 
 Open http://localhost:3000  
-Local data uses `data/learning_journey_db.json` until `DATABASE_URL` is set.
 
-## Deploy (isi key, lalu connect)
+Tanpa `DATABASE_URL` (atau tanpa `.env.local`), data pakai `data/learning_journey_db.json`.  
+Dengan Neon: pastikan log `[DB] Loaded state from Postgres (Neon).`
+
+## Deploy
 
 ### 1. Neon
 
-1. Create a Free project: https://console.neon.tech
-2. Copy the **pooled** connection string (`sslmode=require`).
+1. Project Free: https://console.neon.tech  
+2. Salin **pooled** connection string (`sslmode=require`).  
+3. Lokal: `neon env pull` → `.env.local`
 
-### 2. Render (API)
+### 2. Vercel (UI + API)
 
-1. New Web Service from `https://github.com/pocongcyber77/studentport`
-2. Name the service **`studentport-api`** so the URL is `https://studentport-api.onrender.com` (matches `vercel.json`).
-3. Build: `npm install` · Start: `npm run start`
-4. Env:
-
-| Key | Value |
-|---|---|
-| `NODE_ENV` | `production` |
-| `SERVE_STATIC` | `false` |
-| `DATABASE_URL` | Neon pooled URI |
-| `FRONTEND_ORIGIN` | `https://YOUR-APP.vercel.app` |
-| `GEMINI_API_KEY` | optional |
-
-Health: `https://studentport-api.onrender.com/api/health`
-
-If Render gives a different hostname, change the rewrite `destination` in `vercel.json` (and redeploy Vercel).
-
-### 3. Vercel (UI)
-
-1. Import the same GitHub repo.
-2. Framework: Vite · Output: `dist` · Build: `npm run build`
-3. Env (optional fallback if rewrite host differs):
+1. Import repo: https://github.com/pocongcyber77/studentport  
+2. Framework: Vite · Output: `dist` · Build: `npm run build`  
+3. Environment variables (Production + Preview):
 
 | Key | Value |
-|---|---|
-| `VITE_API_URL` | `https://studentport-api.onrender.com` |
+|-----|--------|
+| `DATABASE_URL` | Neon pooled URI (**wajib**) |
+| `GEMINI_API_KEY` | opsional |
+| `FRONTEND_ORIGIN` | opsional (URL Vercel Anda, untuk CORS ekstra) |
 
-Leave `VITE_API_URL` empty to use `/api` on the Vercel domain (rewritten to Render).
+`VITE_API_URL` **kosongkan** — browser memanggil `/api/...` di domain yang sama.
 
-4. After the Vercel URL exists, put it in Render `FRONTEND_ORIGIN`.
+4. Deploy, lalu cek: `https://<app>.vercel.app/api/health` → `storage: "neon"`
 
-### 4. Gemini (optional)
+### 3. Gemini (optional)
 
-Without a key, assessment scoring still works; feedback uses the built-in fallback.
+Tanpa key, asesmen tetap jalan; umpan balik memakai fallback di server.
 
 ## Scripts
 
-- `npm run lint` — TypeScript check
-- `npm run build` — production UI (`dist/`)
-- `npm run start` — Express API (production on Render)
+- `npm run lint` — TypeScript check  
+- `npm run build` — production UI (`dist/`)  
+- `npm run dev` — Vite + API lokal (port 3000)  
+- `npx tsx scripts/provision-users-once.ts` — buat/update akun di Neon
