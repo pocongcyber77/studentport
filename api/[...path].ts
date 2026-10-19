@@ -2,6 +2,16 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 import serverless from 'serverless-http';
 import { createApiApp } from '../server/api-app.js';
 
+/** Express sends the response itself; Vercel must not wait for the handler promise. */
+export const config = {
+  api: {
+    externalResolver: true,
+    bodyParser: false,
+  },
+};
+
+export const maxDuration = 30;
+
 type ServerlessHandler = (
   req: VercelRequest,
   res: VercelResponse

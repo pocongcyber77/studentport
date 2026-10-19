@@ -26,10 +26,24 @@ interface AuthContextType {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
+const API_TIMEOUT_MS = 15_000;
+
+async function fetchWithTimeout(input: RequestInfo | URL, init?: RequestInit): Promise<Response> {
+  const controller = new AbortController();
+  const timeoutId = window.setTimeout(() => controller.abort(), API_TIMEOUT_MS);
+  try {
+    return await fetch(input, { ...init, signal: controller.signal });
+  } finally {
+    window.clearTimeout(timeoutId);
+  }
+}
+
 export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [user, setUser] = useState<User | null>(null);
   const [token, setToken] = useState<string | null>(() => localStorage.getItem('plj_user_id'));
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [isLoading, setIsLoading] = useState<boolean>(() =>
+    Boolean(localStorage.getItem('plj_user_id'))
+  );
   const [demoAccounts, setDemoAccounts] = useState<DemoAccount[]>([]);
 
   // Fetch demo accounts for login screen reference
@@ -51,7 +65,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     }
 
     try {
-      const res = await fetch('/api/auth/me', {
+      const res = await fetchWithTimeout('/api/auth/me', {
         headers: {
           'x-user-id': activeToken,
         },
@@ -66,6 +80,8 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
       }
     } catch (err) {
       console.error('Failed to fetch user:', err);
+      localStorage.removeItem('plj_user_id');
+      setToken(null);
       setUser(null);
     } finally {
       setIsLoading(false);
@@ -79,7 +95,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
   const login = async (email: string, password: string = 'password123'): Promise<{ success: boolean; error?: string }> => {
     setIsLoading(true);
     try {
-      const res = await fetch('/api/auth/login', {
+      const res = await fetchWithTimeout('/api/auth/login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, password }),
