@@ -33,9 +33,14 @@ interface DatabaseSchema {
 const DATA_DIR = path.resolve(process.cwd(), 'data');
 const DB_FILE = path.join(DATA_DIR, 'learning_journey_db.json');
 
-// Ensure data directory exists
-if (!fs.existsSync(DATA_DIR)) {
-  fs.mkdirSync(DATA_DIR, { recursive: true });
+function ensureDataDir(): void {
+  try {
+    if (!fs.existsSync(DATA_DIR)) {
+      fs.mkdirSync(DATA_DIR, { recursive: true });
+    }
+  } catch (e) {
+    console.warn('[DB] Could not create data directory (read-only env?):', e);
+  }
 }
 
 function generateInitialSeed(): DatabaseSchema {
@@ -1121,6 +1126,7 @@ class Database {
   }
 
   private loadDataFromFile(): DatabaseSchema {
+    ensureDataDir();
     try {
       if (fs.existsSync(DB_FILE)) {
         const raw = fs.readFileSync(DB_FILE, 'utf-8');

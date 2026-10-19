@@ -45,6 +45,12 @@ export type CreateApiAppOptions = {
 export async function createApiApp(options: CreateApiAppOptions = {}): Promise<Express> {
   const { logRequests = true } = options;
 
+  if (process.env.VERCEL && !isPostgresEnabled()) {
+    throw new Error(
+      'DATABASE_URL is required on Vercel. Add Neon pooled URI in Project → Settings → Environment Variables.'
+    );
+  }
+
   await db.ready();
   if (isPostgresEnabled()) {
     await pingDatabase();

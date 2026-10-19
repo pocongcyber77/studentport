@@ -1,6 +1,6 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
 import serverless from 'serverless-http';
-import { createApiApp } from '../server/api-app.js';
+import { createApiApp } from '../server/api-app';
 
 /** Express sends the response itself; Vercel must not wait for the handler promise. */
 export const config = {
@@ -29,6 +29,16 @@ async function getHandler(): Promise<ServerlessHandler> {
 }
 
 export default async function vercelApi(req: VercelRequest, res: VercelResponse) {
-  const handler = await getHandler();
-  return handler(req, res);
+  try {
+    const handler = await getHandler();
+    return handler(req, res);
+  } catch (err) {
+    console.error('[api] invocation failed:', err);
+    if (!res.headersSent) {
+      res.status(500).json({
+        error: 'API initialization failed',
+        message: err instanceof Error ? err.message : String(err),
+      });
+    }
+  }
 }
