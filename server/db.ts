@@ -14,6 +14,7 @@ import {
   AuditLog,
   StudentReflection,
 } from './types.js';
+import { isPostgresEnabled, loadState, saveState } from './persist.js';
 
 interface DatabaseSchema {
   users: User[];
@@ -1063,48 +1064,79 @@ function generateInitialSeed(): DatabaseSchema {
   };
 }
 
+function normalizeSchema(parsed: DatabaseSchema): DatabaseSchema {
+  if (!parsed.reflections) parsed.reflections = [];
+  if (!parsed.audit_logs) parsed.audit_logs = [];
+  if (!parsed.chapters || parsed.chapters.length === 0 || !parsed.subtopics || parsed.subtopics.length === 0) {
+    const seed = generateInitialSeed();
+    parsed.chapters = seed.chapters;
+    parsed.subtopics = seed.subtopics;
+    for (const c of parsed.competencies) {
+      if (!c.chapter_id) c.chapter_id = 'chap-1';
+      c.subtopics = parsed.subtopics.filter((s: Subtopic) => s.competency_id === c.id);
+    }
+    for (const q of parsed.questions) {
+      if (!q.chapter_id) q.chapter_id = 'chap-1';
+      const seedQ = seed.questions.find((sq: AssessmentQuestion) => sq.id === q.id);
+      if (seedQ) {
+        q.subtopic_id = seedQ.subtopic_id;
+        q.subtopic_title = seedQ.subtopic_title;
+      }
+    }
+  }
+  return parsed;
+}
+
 class Database {
   private data: DatabaseSchema;
+  private initPromise: Promise<void>;
+  private writeChain: Promise<void> = Promise.resolve();
 
   constructor() {
-    this.data = this.loadData();
+    this.data = generateInitialSeed();
+    this.initPromise = this.initialize();
   }
 
-  private loadData(): DatabaseSchema {
+  public async ready(): Promise<void> {
+    await this.initPromise;
+    await this.writeChain;
+  }
+
+  private async initialize(): Promise<void> {
+    if (isPostgresEnabled()) {
+      const loaded = await loadState();
+      if (loaded && typeof loaded === 'object') {
+        this.data = normalizeSchema(loaded as DatabaseSchema);
+        console.log('[DB] Loaded state from Postgres (Neon).');
+        return;
+      }
+      this.data = generateInitialSeed();
+      await saveState(this.data);
+      console.log('[DB] Seeded new state into Postgres (Neon).');
+      return;
+    }
+
+    this.data = this.loadDataFromFile();
+    console.log('[DB] Using local JSON file store.');
+  }
+
+  private loadDataFromFile(): DatabaseSchema {
     try {
       if (fs.existsSync(DB_FILE)) {
         const raw = fs.readFileSync(DB_FILE, 'utf-8');
-        const parsed = JSON.parse(raw);
-        if (!parsed.reflections) parsed.reflections = [];
-        if (!parsed.chapters || parsed.chapters.length === 0 || !parsed.subtopics || parsed.subtopics.length === 0) {
-          const seed = generateInitialSeed();
-          parsed.chapters = seed.chapters;
-          parsed.subtopics = seed.subtopics;
-          for (const c of parsed.competencies) {
-            if (!c.chapter_id) c.chapter_id = 'chap-1';
-            c.subtopics = parsed.subtopics.filter((s: Subtopic) => s.competency_id === c.id);
-          }
-          for (const q of parsed.questions) {
-            if (!q.chapter_id) q.chapter_id = 'chap-1';
-            const seedQ = seed.questions.find((sq: any) => sq.id === q.id);
-            if (seedQ) {
-              q.subtopic_id = seedQ.subtopic_id;
-              q.subtopic_title = seedQ.subtopic_title;
-            }
-          }
-          this.saveData(parsed);
-        }
+        const parsed = normalizeSchema(JSON.parse(raw) as DatabaseSchema);
+        this.saveToFile(parsed);
         return parsed;
       }
     } catch (e) {
       console.warn('Gagal membaca DB file, membuat database baru:', e);
     }
     const seed = generateInitialSeed();
-    this.saveData(seed);
+    this.saveToFile(seed);
     return seed;
   }
 
-  public saveData(data?: DatabaseSchema): void {
+  private saveToFile(data?: DatabaseSchema): void {
     if (data) {
       this.data = data;
     }
@@ -1113,8 +1145,24 @@ class Database {
       fs.writeFileSync(tempPath, JSON.stringify(this.data, null, 2), 'utf-8');
       fs.renameSync(tempPath, DB_FILE);
     } catch (err) {
-      console.error('Error saving database:', err);
+      console.error('Error saving database file:', err);
     }
+  }
+
+  public saveData(data?: DatabaseSchema): void {
+    if (data) {
+      this.data = data;
+    }
+    if (!isPostgresEnabled()) {
+      this.saveToFile();
+      return;
+    }
+    const snapshot = this.data;
+    this.writeChain = this.writeChain
+      .then(() => saveState(snapshot))
+      .catch((err) => {
+        console.error('Error saving database to Postgres:', err);
+      });
   }
 
   public resetToSeed(): void {
